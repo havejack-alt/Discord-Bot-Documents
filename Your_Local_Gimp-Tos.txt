@@ -1,0 +1,68 @@
+Terms of Service — Your Local Gimp 
+Last updated: August 6, 2026
+By inviting, configuring, or using this Discord bot (“the Bot”) in a server, you agree to these Terms. If you do not agree, remove the Bot and do not use it.
+1. What the Bot does
+The Bot provides tools for Discord servers, which may include:
+
+Creating and posting events and signup cards
+Collecting signup information (e.g. Discord user, VRChat name, event role side)
+Host tools (mark present, remove signups, history)
+Optional Fansly live board tracking
+Optional transcribe mode (messages you send in DMs may be posted by the Bot in chosen channels)
+Server configuration set by admins/hosts via /setup and related commands
+
+Features depend on how each server configures the Bot.
+2. Eligibility and accounts
+
+You must comply with Discord’s Terms of Service and Community Guidelines.
+You must have the right to add the Bot to a server and to configure roles/channels it uses.
+Server admins are responsible for who can use host, setup, transcribe, and Fansly features.
+
+3. Acceptable use
+You agree not to use the Bot to:
+
+Break Discord’s rules or any applicable law
+Harass, scam, spam, or impersonate others
+Collect or post private information about others without a lawful basis and their awareness where required
+Abuse APIs, scrape in ways that harm third-party services, or overload the Bot
+Circumvent role or permission checks
+Use transcribe/Fansly features to mislead users about who is speaking or what is being tracked
+
+We may refuse or limit access if use is abusive or harmful.
+4. Server operator responsibilities
+If you add or manage the Bot in a server, you are responsible for:
+
+Configuring roles, channels, and permissions correctly
+Informing your members, where appropriate, that the Bot stores signup and related data for that server
+How hosts use present, remove, and history tools
+Optional features (Fansly board, attendance roles, transcribe, reward integrations)
+Compliance with laws that apply to your community (including privacy/age rules)
+
+The Bot is a tool; you control how it is used in your server.
+5. Third-party services
+The Bot may interact with:
+
+Discord
+Optional Fansly (or similar) public profile/live status information
+Your own server’s channels, roles, and other bots (e.g. reward bots reacting to roles)
+
+We do not control third-party services. Their terms and availability apply. Outages or changes on Discord/Fansly may affect the Bot.
+6. No warranty
+The Bot is provided “as is.”
+We do not guarantee uninterrupted uptime, perfect accuracy of live status, delivery of every message, or fitness for a particular purpose. Event times, signups, and host actions depend on correct setup and Discord’s platform.
+7. Limitation of liability
+To the maximum extent allowed by law, the Bot operator is not liable for indirect, incidental, or consequential damages, or for losses arising from:
+
+Missed events or signups
+Misconfigured roles/channels
+Host or admin actions
+Data loss, Discord outages, or third-party API changes
+Misuse of the Bot by server members
+
+8. Availability and changes
+We may update, pause, or discontinue the Bot or any feature at any time. We may update these Terms; continued use after changes means you accept the updated Terms. Material changes should be announced where the Bot is normally documented (e.g. support server or README).
+9. Termination
+You may stop using the Bot by removing it from your server.
+We may stop providing the Bot to a server or user for ToS violations, abuse, or operational reasons.
+10. Contact
+For questions about these Terms, contact: havejack@gmail.com
