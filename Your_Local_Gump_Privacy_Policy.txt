@@ -1,81 +1,105 @@
-Privacy Policy — Your Local Gimp
-Last updated: August 11, 2026
+# Privacy Policy — Your Local Gimp
+
+**Last updated:** August 11, 2026
+
 This policy explains what the Bot stores and how that data is used. It applies when the Bot is used in Discord servers.
-1. Who this applies to
 
-Server admins/hosts who configure the Bot
-Members who sign up for events or interact with Bot features
-Users of transcribe or Fansly features where enabled
+## 1. Who this applies to
 
-The Bot is operated by: AncientAnarchist.
-Contact: havejack@gmail.com
-2. Data we process
-A. Automatically from Discord (as needed to run the Bot)
+- Server admins/hosts who configure the Bot
+- Members who sign up for events or interact with Bot features
+- Users of transcribe or Fansly features where enabled
 
-Discord user ID, username/display name, and role IDs relevant to permissions
-Server (guild) ID
-Channel and message IDs the Bot posts or tracks (event cards, host threads, boards)
-Command and button interactions you use with the Bot
+The Bot is operated by: **AncientAnarchist**  
+Contact: **havejack@gmail.com**
 
-B. Data you or your hosts provide
+## 2. Data we process
 
-Event details: name, description, time, type (standard/hunt/auction), optional image
-Signups: Discord user, VRChat name, optional side (e.g. hunter/prey, for sale/bidder), present/signed status
-Setup config: role IDs, channel IDs, help links, timezone, close timers, attendance role, etc.
-Fansly board (if used): Discord user linked to a Fansly username/URL, optional ping role, link text, live status checks
-Transcribe (if used): channel choices; messages you send in Bot DMs while a session is active may be relayed to chosen channels; session transcripts may be saved/posted if configured
+### A. Automatically from Discord (as needed to run the Bot)
 
-C. What we do not intentionally collect
+- Discord user ID, username/display name, and role IDs relevant to permissions
+- Server (guild) ID
+- Channel and message IDs the Bot posts or tracks (event cards, host threads, boards)
+- Command and button interactions you use with the Bot
 
-Payment card data
-Passwords
-Private messages unrelated to Bot features (the Bot only sees what Discord delivers to it under its permissions and your use of commands/DMs with the Bot)
+### B. Data you or your hosts provide
 
-3. Why we use this data
+- **Event details:** name, description, time, type (standard/hunt/auction), optional image
+- **Signups:** Discord user, VRChat name, optional side (e.g. hunter/prey, for sale/bidder), present/signed status
+- **Setup config:** role IDs, channel IDs, help links, timezone, close timers, attendance role, etc.
+- **Fansly board (if used):** Discord user linked to a Fansly username/URL, optional ping role, link text, live status checks
+- **Transcribe (if used):** channel choices; messages you send in Bot DMs while a session is active may be relayed to chosen channels; session transcripts may be saved/posted if configured
 
-Run events, signups, and host tools
-Enforce roles and permissions
-Post and update announcements, host panels, and optional Fansly boards
-Provide transcribe relay and optional transcripts
-Keep per-server settings and history
-Operate, debug, and improve reliability (including server-side logs of actions)
+### C. What we do not intentionally collect
 
-4. Where data is stored
+- Payment card data
+- Passwords
+- Private messages unrelated to Bot features (the Bot only sees what Discord delivers to it under its permissions and your use of commands/DMs with the Bot)
 
-Per-server databases and files on the machine/host running the Bot (e.g. config, events, signups, Fansly entries, optional images/transcripts)
-Logs on that host may include usernames, server names, event IDs, and action descriptions for operation and troubleshooting
+The Bot does **not** use message or member data to train machine learning or AI models.
+
+## 3. Why we use this data
+
+- Run events, signups, and host tools
+- Enforce roles and permissions
+- Post and update announcements, host panels, and optional Fansly boards
+- Provide transcribe relay and optional transcripts
+- Keep per-server settings and history
+- Operate, debug, and improve reliability (including server-side logs of actions)
+
+## 4. Where data is stored
+
+Data is stored **only on the operator’s machine that runs the Bot** (local SQLite databases and optional local files such as images or transcripts). It is **not** uploaded to a separate cloud database, analytics service, or third-party data processor controlled by us.
+
+- Per-server databases and files on the host (e.g. config, events, signups, Fansly entries, optional images/transcripts)
+- Logs on that host may include usernames, server names, event IDs, and action descriptions for operation and troubleshooting
 
 Data for one Discord server is kept separate from other servers in normal operation.
-5. Sharing
-We do not sell personal data.
+
+## 5. Sharing
+
+We do **not** sell personal data.
+
 Data may be visible to:
 
-Discord (platform that carries all interactions)
-Server members with access to channels where the Bot posts (signup cards, boards, relayed transcribe messages)
-Hosts/admins of that server (panels, history, configuration)
-Third-party sites only as needed for optional features (e.g. checking public Fansly live/profile information)
+- **Discord** (the platform that carries all interactions)
+- **Server members** with access to channels where the Bot posts (signup cards, boards, relayed transcribe messages)
+- **Hosts/admins** of that server (panels, history, configuration)
+- **Third-party sites** only as needed for optional features (e.g. checking public Fansly live/profile information)
 
-6. Retention
+## 6. Retention
 
-Active server config and event/signup data are kept while the Bot is used in that server and data remains on the host
-Event history and transcripts are kept until deleted by operators or host processes
-Removing the Bot from a server does not automatically wipe the host’s stored files; server owners may request deletion of that server’s data by contacting the operator
+- Active server config and event/signup data are kept while the Bot is used in that server and data remains on the host
+- Event history and transcripts are kept until deleted by operators or host processes
+- Removing the Bot from a server does not automatically wipe the host’s stored files; server owners may request deletion of that server’s data by contacting the operator
 
-Request deletion / export for your server: contact [your contact] with the server ID and a way to verify you are authorized (e.g. server owner).
-7. Your choices
+**Request deletion or export for your server:** email **havejack@gmail.com** with the server ID and a way to verify you are authorized (e.g. server owner).
 
-Don’t use signup, transcribe, or Fansly features if you don’t want related data stored
-Server admins can limit who has host/setup/transcribe roles
-You can leave events (Unsign) while signups are open, subject to server rules and close times
-You can close DMs to the Bot (transcribe will not work without DMs)
+## 7. Your choices
 
-8. Children
+- Don’t use signup, transcribe, or Fansly features if you don’t want related data stored
+- Server admins can limit who has host/setup/transcribe roles
+- You can leave events (Unsign) while signups are open, subject to server rules and close times
+- You can close DMs to the Bot (transcribe will not work without DMs)
+
+**Transcribe:** Message content is only read during an explicit staff transcribe session (`/transcribe start`). Ending the session (`stop` or `/transcribe stop`) or idle timeout stops further collection for that session. The Bot does not read general server chat for logging or tracking outside those sessions.
+
+## 8. Children
+
 The Bot is not directed at children under 13 (or the minimum age required by Discord in your region). Do not use the Bot if you are under Discord’s required age.
-9. Security
-Reasonable measures are used to protect data on the host (access control to the machine, per-server data files). No method of storage is 100% secure. Server admins should only grant Bot permissions it needs.
-10. International users
-Data is processed where the Bot is hosted ([e.g. your country / “on the operator’s server”]). If that is not your country, your data may be processed abroad.
-11. Changes
+
+## 9. Security
+
+Reasonable measures are used to protect data on the host (access control to the machine, per-server data files). No method of storage is 100% secure. Server admins should only grant the Bot the permissions it needs.
+
+## 10. International users
+
+Data is processed on the operator’s server that runs the Bot. If that location differs from yours, data may be processed outside your country.
+
+## 11. Changes
+
 We may update this Privacy Policy. Continued use after an update means you accept the revised policy. Check the “Last updated” date and any announcement channel for the Bot.
-12. Contact
-Privacy questions or deletion requests: havejack@gmail.com
+
+## 12. Contact
+
+Privacy questions or deletion requests: **havejack@gmail.com**
